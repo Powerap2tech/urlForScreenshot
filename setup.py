@@ -29,7 +29,7 @@ setuptools.setup(
     extras_require={
         "fast": ["cryptg>=0.2"],
     },
-    python_requires="~=3.7",
+    python_requires="~=3.10",
 
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -38,7 +38,7 @@ setuptools.setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.10",
     ],
     entry_points="""
         [console_scripts]
